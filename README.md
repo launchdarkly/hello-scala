@@ -6,5 +6,4 @@ We've built a simple console application that demonstrates how LaunchDarkly's SD
 
 1. Install [SBT](https://www.scala-sbt.org/).
 2. Copy your SDK key and feature flag key from your LaunchDarkly dashboard into `Main.scala`
-3. Run `sbt update` to download library dependencies.
-5. Run `sbt run` to compile and run the sample application.
+3. Run `sbt run` to compile and run the sample application.
