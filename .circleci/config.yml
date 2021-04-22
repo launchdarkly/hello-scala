@@ -25,6 +25,7 @@ jobs:
   build-run-linux:
     docker:
       - image: mozilla/sbt
+    working_directory: /root/hello  # default of ~/project is unavailable in this Docker image
     steps:
       - checkout
       - run:
