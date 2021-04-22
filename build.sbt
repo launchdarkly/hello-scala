@@ -1,10 +1,13 @@
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.13.5"
 
 resolvers += Resolver.sonatypeRepo("public")
 
-// the LaunchDarkly client dependency
-libraryDependencies += "com.launchdarkly" % "launchdarkly-java-server-sdk" % "4.6.4"
+trapExit := false  // this allows the demo to use System.exit(1) to signal an error
 
-// Provides a logger implementation; this dependency is not used directly by the LD client
-libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3"
+// The LaunchDarkly SDK dependency
+libraryDependencies += "com.launchdarkly" % "launchdarkly-java-server-sdk" % "[5.0,6.0)"
+
+// Adding slf4j-simple enables the basic console logging implementation of SLF4J. Most real
+// applications will use one of the other SLF4J adapters. See: http://www.slf4j.org/
+libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.7.22"
