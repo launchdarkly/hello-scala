@@ -1,6 +1,6 @@
 # LaunchDarkly Sample Scala Application 
 
-We've built a simple console application that demonstrates how LaunchDarkly's SDK . There isn't a separate Scala SDK. Below, you'll find the basic build procedure, but for more comprehensive instructions, you can visit your [Quickstart page](https://app.launchdarkly.com/quickstart#/) or the [Java SDK reference guide](https://docs.launchdarkly.com/sdk/server-side/java).
+We've built a simple console application that demonstrates how to use LaunchDarkly's Java SDK in a Scala application. There isn't a separate Scala SDK. Below, you'll find the basic build procedure, but for more comprehensive instructions, you can visit your [Quickstart page](https://app.launchdarkly.com/quickstart#/) or the [Java SDK reference guide](https://docs.launchdarkly.com/sdk/server-side/java).
 
 Note that this sample application does not use any functional programming frameworks such as [Scalaz](https://github.com/scalaz/scalaz) or [Cats](https://typelevel.org/cats/). Rather, the application exhibits how to use the LaunchDarkly Server-Side SDK for Java in a vanilla Scala application. Note that this is the same SDK you would use in Java; there isn't a separate Scala SDK.
  
